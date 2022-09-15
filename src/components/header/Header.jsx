@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assests/Me.png'
-
+import  LOGO from '../../assests/LOGO.png'
 import HeaderSocials from './HeaderSocials'
 
 
@@ -12,6 +12,10 @@ const Header = () => {
       <div className="container header__container">
       <h4>Hello I'm</h4>
 
+      <div className="logo_cont">
+        <img src={LOGO} className="logo" alt="logo" /> 
+      </div>
+      
       
 
       <h1>Aditya Pradhan</h1>

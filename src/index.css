@@ -6,7 +6,6 @@
     border: 0;
     outline: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
 }
 
@@ -58,7 +57,7 @@ h1 {
 
 section{
     margin-top: 5rem;
-    height: 100vh;
+    height: 45vh;
 }
 
 section > h2 , section > h5 {
@@ -121,6 +120,7 @@ img{
 
     section{
         margin-top: 4rem;
+        height: auto;
     }
 }
 

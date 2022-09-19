@@ -46,9 +46,10 @@
 }
 
 .btn_wrap{
-    margin-left: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 /*############## Media Queries ##############*/
 @media screen and (max-width: 1024px){
@@ -60,7 +61,11 @@
    .about__para{
     width: 70%;
     margin: 0rem auto 0rem;
-    height: 43vh;
+    height: 34vh;
+   }
+   .about__content{
+    width: 70%;
+    margin: 0rem auto 0rem;
    }
 }
 

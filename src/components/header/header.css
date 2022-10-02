@@ -106,7 +106,7 @@ header{
 
 @media screen and (max-width: 900px){
     .logo{
-        right: 84%;
+        left : -1rem;
     }
 }
 

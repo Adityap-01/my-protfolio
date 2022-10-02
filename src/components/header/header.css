@@ -56,7 +56,9 @@ header{
 .logo{
     width: 9.5rem;
     position:absolute;
-    right: 87%;
+    /* right: 87%; */
+    left : -4rem;
+    top : 2rem;
     animation: rotation 3s infinite linear;
 
     /* height: 9.5rem; */
@@ -64,6 +66,7 @@ header{
     /* animation: rotation 2s infinite linear; */
     /* margin-top: 3rem; */
 }
+
 
 @keyframes rotation {
     from {
@@ -112,7 +115,7 @@ header{
         height: 90vh;
     }
 
-    .header__socials,.scroll__down, .logo{
+    .header__socials,.scroll__down, .logo , .sound_cont{
         display: none;
     }
 }

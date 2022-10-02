@@ -4,7 +4,7 @@ import CTA from './CTA'
 import ME from '../../assests/Me.png'
 import  LOGO from '../../assests/LOGO.png'
 import HeaderSocials from './HeaderSocials'
-
+import SOUNDBAR from './SoundBar'
 
 const Header = () => {
   return (
@@ -16,7 +16,9 @@ const Header = () => {
         <img src={LOGO} className="logo" alt="logo" /> 
       </div>
       
-      
+      <div className="sound_cont">
+        <SOUNDBAR/>
+      </div>
 
       <h1>Aditya Pradhan</h1>
       <h5 className='text-light'>Frontend Developer</h5>

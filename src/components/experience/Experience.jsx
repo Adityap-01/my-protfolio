@@ -5,7 +5,7 @@ import ALOGO from '../../assests/accelerize360.png'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Whats Skills I Have</h5>
+      <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">

@@ -20,7 +20,7 @@ const About = () => {
           <br />
           <p>I am an avid Football player and a FIFA fanatic. Music is my escape.</p>
           <br />
-          <p>Feel free to reach out to me !</p>
+          <p>Feel free to reach out to me</p>
 
             
         </div>

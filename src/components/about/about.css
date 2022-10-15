@@ -70,7 +70,7 @@
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 0.9rem;
-        margin-top: 11rem;
+        margin-top: 15rem;
     }
 }
 /**/
